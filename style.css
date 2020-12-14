@@ -1,7 +1,18 @@
 @font-face {
-    font-family: 'Big_Jhon'; /* Имя шрифта */
-    src: url(Big_John_Slim_Joe/BIG_JOHN.otf); /* Путь к файлу со шрифтом */
+    font-family: 'BigJhon'; 
+    src: url('fonts/BIGJOHN.otf'); 
    }
+
+   @font-face {
+    font-family: 'SlimJoe'; 
+    src: url('fonts/SlimJoe.otf'); 
+   } 
+
+   @font-face {
+    font-family: 'Lato'; 
+    src: url('fonts/Lato-Bold.ttf'); 
+   } 
+
 
 *{
     box-sizing: border-box;
@@ -42,7 +53,7 @@ h1,h2 {
 
 .nav_link {
     color: #fff;
-    font-family: 'Loto' sans-serif;
+    font-family: 'Lato';
     text-decoration: none;
     font-weight: 700;
     
@@ -78,9 +89,9 @@ h1,h2 {
     font-size: 46px;
     color: #fff;
     text-align: center;
-    font-family: "Big_John";
+    font-family: "BigJhon";
     text-transform: uppercase;
-    font-weight: bold;
+    /* font-weight: bold; */
     line-height: 1;
     margin-bottom: 28px;
 }
@@ -89,7 +100,7 @@ h1,h2 {
     font-size: 24px;
     color: #ffffff;
     font-weight: 400;
-    font-family: "Slim Joe";
+    font-family: "SlimJoe";
     text-align: center;
 }
 
