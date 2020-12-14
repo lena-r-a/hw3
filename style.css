@@ -6,18 +6,24 @@ body {
     font-size: 16px;
 }
 
+h1,h2 {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     width: 100%;
     max-width: 1140px;
     margin: 0 auto;
 }
 
-.komp1 {
+.сomp1 {
     width: 100%;
     height: 648px;
     background: url('images/rectangle_1.jpg');
     }
 
+    /* Навигация */
 .start {
     padding-top: 36px;
     display:flex;
@@ -33,7 +39,7 @@ body {
     color: #fff;
     font-family: 'Loto' sans-serif;
     text-decoration: none;
-    /* margin: 0 52px; */
+    font-weight: 700;
     
 }
 
@@ -50,4 +56,53 @@ body {
 .nav_link:last-child:after {
     content: '';
     padding: 0;
+}
+
+/* Заголовок */
+
+.title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 512px;
+   
+}
+
+.comp1_title {
+    font-size: 46px;
+    color: #fff;
+    text-align: center;
+    font-family: "Big John" sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 28px;
+}
+
+.under_title {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Slim Joe";
+    text-align: center;
+}
+
+.h_button {
+    width: 134px;
+    height: 35px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #48bf72;
+    font-weight: 700;
+    font-family: "Lato";
+    text-transform: uppercase;
+    border: 3px solid #48bf72 ;
+    background: transparent;
+}
+
+.button_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 49px;
 }
