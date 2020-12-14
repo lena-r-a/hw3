@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Big Jhon'; /* Имя шрифта */
+    src: url(Big_John_Slim_Joe/BIG_JOHN.otf); /* Путь к файлу со шрифтом */
+   }
+
 *{
     box-sizing: border-box;
 }
