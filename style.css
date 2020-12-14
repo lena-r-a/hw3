@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Big Jhon'; /* Имя шрифта */
+    font-family: 'Big_Jhon'; /* Имя шрифта */
     src: url(Big_John_Slim_Joe/BIG_JOHN.otf); /* Путь к файлу со шрифтом */
    }
 
@@ -78,7 +78,7 @@ h1,h2 {
     font-size: 46px;
     color: #fff;
     text-align: center;
-    font-family: "Big John" sans-serif;
+    font-family: "Big_John";
     text-transform: uppercase;
     font-weight: bold;
     line-height: 1;
