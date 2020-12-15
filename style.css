@@ -13,6 +13,11 @@
     src: url('fonts/Lato-Bold.ttf'); 
    } 
 
+   @font-face {
+    font-family: 'Lato_reg'; 
+    src: url('fonts/Lato-Regular.ttf'); 
+   } 
+
 
 *{
     box-sizing: border-box;
@@ -24,7 +29,7 @@ body {
     font-size: 16px;
 }
 
-h1,h2 {
+h1,h2, h3 {
     margin: 0;
     padding: 0;
 }
@@ -168,7 +173,29 @@ h1,h2 {
     flex-direction: row;
     justify-content: space-between;
 }
+.text_img {
+    position: relative;
+    display: flex;
+    align-items: center;
+  justify-content: center
+}
+.text {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    
+  }
 
+  h3 {
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Lato";
+  }
+
+.text p {
+    font-family: "Lato_Reg";
+ 
+}
 
 
 
