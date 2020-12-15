@@ -27,6 +27,7 @@
 
 body {
     font-size: 16px;
+    color: #fff;
 }
 
 h1,h2, h3 {
@@ -43,6 +44,7 @@ h1,h2, h3 {
     width: 100%;
     height: 648px;
     background: url('images/rectangle_1.jpg');
+    background-position: center center;
     }
 
     /* Навигация */
@@ -98,14 +100,12 @@ h1,h2, h3 {
     text-align: center;
     font-family: "BigJhon";
     text-transform: uppercase;
-    /* font-weight: bold; */
     line-height: 1;
     margin-bottom: 28px;
 }
 
 .under_title {
     font-size: 24px;
-    color: #ffffff;
     font-weight: 400;
     font-family: "SlimJoe";
     text-align: center;
@@ -139,8 +139,7 @@ h1,h2, h3 {
 }
 
 .nav_link_des {
-    /* display: inline-block; */
-    color: #3c4955;
+     color: #3c4955;
     font-weight: 700;
     font-family: "Lato";
     width: 125px;
@@ -182,7 +181,6 @@ h1,h2, h3 {
 .text {
     position: absolute;
     text-align: center;
-    color: #fff;
       }
 
   h3 {
@@ -191,18 +189,35 @@ h1,h2, h3 {
     font-family: "Lato";
   }
 
-.text p {
+.p_text {
     font-family: "Lato_Reg";
- 
-}
+    }
 
 /* Компонент3 */
 
 .content2 {
-    width: 100%;
     height: 495px;
     background: url('images/rectangle_2_copie.jpg');
-    }
+    background-position: center center;
+       }
 
+.empty {
+    width: 50%;
+    height: 495px;
+}
 
+.columns {
+    columns: 2;
+    width: 100%;
+}
+.un_title {
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.p_text1 {
+    font-family: "Lato_Reg";
+    max-width: 403px;
+    line-height: 25px;
+}
 
