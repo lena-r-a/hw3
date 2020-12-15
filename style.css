@@ -45,6 +45,7 @@ h1,h2, h3 {
     height: 648px;
     background: url('images/rectangle_1.jpg');
     background-position: center center;
+    overflow: hidden;
     }
 
     /* Навигация */
@@ -135,7 +136,7 @@ h1,h2, h3 {
 .designe_nav {
     display: flex;
     justify-content: center;
-    margin-top: 3em;
+    padding-top: 3em;
 }
 
 .nav_link_des {
@@ -159,7 +160,7 @@ h1,h2, h3 {
 
 
 .back {
-    margin-bottom: 30px;
+    margin-bottom: 37px;
     display: block;
     max-width: 100%;
     height: auto;
@@ -176,7 +177,7 @@ h1,h2, h3 {
     position: relative;
     display: flex;
     align-items: center;
-  justify-content: center
+    justify-content: center
 }
 .text {
     position: absolute;
@@ -198,7 +199,8 @@ h1,h2, h3 {
 .content2 {
     height: 495px;
     background: url('images/rectangle_2_copie.jpg');
-    background-position: center center;
+    background-size: cover;
+    background-position: center ;
        }
 
 .empty {
@@ -221,3 +223,16 @@ h1,h2, h3 {
     line-height: 25px;
 }
 
+.auth {
+    font-size: 14px;
+    line-height: 25px;
+    color: #3c4955;
+    font-family: "Lato";
+    width: 152px;
+    height: 39px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 2px solid #3c4955;
+    text-transform: uppercase;
+    margin-top: 37px;
+}
